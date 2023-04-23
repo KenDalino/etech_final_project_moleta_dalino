@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: whitesmoke;
+    background-color: white;
     height: 140px;
     width: 100%;
 }
@@ -39,11 +39,11 @@ nav ul li a{
 
 label.logo{
     color:black;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 140px;
     padding: 0;
     font-weight: 100;
-    font-family: 'Rowdies', cursive;
+    font-family: 'Vina Sans';
 }
 
 .checkButton{
@@ -108,4 +108,3 @@ a:hover, a.active{
 body{
     background-color:black;
 }
-

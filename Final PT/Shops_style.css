@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: ghostwhite;
+}
+
+.col-md-4{
+    padding: 30px;
+}
+
+p.card-text{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+h5.card-title{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+

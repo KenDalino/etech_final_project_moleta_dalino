@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: ghostwhite;
+    color: black;
+}
+
+.wrapper h1{
+    font-size: 75px;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.wrapper p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.card{
+    height: 250px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 30px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+}
+
+.card p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card:hover{
+    background: #daa300;
+    width: 380px;
+}
+
+.card:hover h2{
+    color: ghostwhite;
+    font-size: 50px;
+}
+
+.card:hover p{
+    color: ghostwhite;
+    font-size: 30px;
+}
+
+@media(max-wdith: 991px) {
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-size: 65;
+        font-weight: 600;
+    }
+}
+
+
